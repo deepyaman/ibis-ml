@@ -1,0 +1,13 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "ibis-ml"
+authors = [{name = "Ibis Maintainers", email = "maintainers@ibis-project.org"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+dynamic = ["version", "description"]
+
+[project.urls]
+Home = "https://ibis-project.org"
